@@ -417,7 +417,7 @@ document.getElementById('formBooking').addEventListener('submit', function(e) {
             btn.textContent = 'Konfirmasi Booking';
         });
 });
-p
+
 function toggleOpen(checked) {
     state.isOpenMatch = checked;
     document.getElementById('openMatchOptions').style.display = checked ? 'block' : 'none';
